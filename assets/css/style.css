@@ -1,0 +1,77 @@
+html {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  text-align: center;
+  border-bottom: 1px solid #ffbe5b;
+  padding-bottom: 1.3em;
+}
+header img {
+  width: 15%;
+}
+
+main {
+  width: 50vw;
+  margin: 0 auto;
+}
+main > p {
+  text-align: center;
+  color: hsl(179, 97%, 15%);
+  margin-bottom: 6em;
+  font-size: 0.8em;
+}
+main span {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+section * {
+  margin-bottom: 1.8em;
+  font-weight: 540;
+}
+section h1 {
+  text-align: center;
+  font-size: 2.1em;
+  margin-bottom: 1em;
+}
+section > p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+section video {
+  border-radius: 1em;
+  width: 100%;
+}
+figcaption {
+  text-align: center;
+  color: gray;
+}
+.lin {
+  border-left: 2px solid #ffbe5b;
+  margin-bottom: 4em;
+  display: inline-block;
+}
+.lin > p {
+  text-transform: uppercase;
+  color: rgba(255, 0, 0, 0.86);
+  font-weight: bold;
+  margin: 3px 1.5em;
+}
+.lin:first-of-type a {
+  margin: 0 1.5em;
+}
+
+a {
+  color: rgba(16, 119, 119);
+}
+h2 {
+  border-bottom: 1px solid rgba(4, 158, 156, 0.258);
+  padding-bottom: 1.5em;
+  font-size: 1.8em;
+}
+h4 {
+  font-weight: bold;
+}
+ol li {
+  font-weight: bold;
+}
